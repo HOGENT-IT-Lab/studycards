@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "Algorithms 1",
+        "tags": ["CS, Year 1"]
+    },
+    {
+        "id": 2,
+        "name": "Quiz 2",
+        "tags": ["CS, Year 1"]
+    }
+]
