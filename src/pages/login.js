@@ -42,7 +42,13 @@ export default function Login() {
                 <TextField helperText={passwordErrorText} error={!!(passwordErrorText.length > 0)} type="password" label="password" onChange={(e) => {
                     setPassword(e.target.value);
                     setPasswordErrorText("");
-                    }}/>
+                    }}
+                    onKeyDown={(ev) => {
+                        if (ev.key === 'Enter') {
+                          handleGoHome();
+                          ev.preventDefault();
+                        }
+                      }}/>
                 <Box sx={{display:"flex", gap:"8px", alignItems:"center", justifyContent:"center" }}>
                     <Button variant="contained" onClick={handleGoHome}>Log In</Button>
                     <Link>Forgot email or password?</Link>
