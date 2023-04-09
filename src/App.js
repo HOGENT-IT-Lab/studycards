@@ -5,12 +5,14 @@ import Login from './pages/login';
 import Quiz from './pages/quiz';
 import NotFound from './pages/404';
 import NavBar from './components/navbar';
+import CreateQuiz from './pages/createQuiz';
 
 function App() {
   return (
     <Routes>
       <Route index element={<><NavBar/><Home/></>}/>
       <Route path='/login' element={<Login/>}/>
+      <Route path='/quizzes/add' element={<><NavBar/><CreateQuiz/></>}/>
       <Route path='/quizzes/:quizId' element={<><NavBar/><Quiz/></>}/>
       <Route path='*' element={<><NavBar/><NotFound/></>}/>
     </Routes>

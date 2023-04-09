@@ -1,6 +1,8 @@
 import { Box, Button, TextField, Typography } from "@mui/material";
+import React, { useCallback } from 'react';
 
-export default function createQuiz() {
+
+export default function CreateQuiz() {
     const [quiz, setQuiz] = React.useState({flashcards: []});
     return (
         <Box>
