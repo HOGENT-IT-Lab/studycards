@@ -6,7 +6,12 @@
     },
     {
         "id": 2,
-        "name": "Quiz 2",
+        "name": "OOP Fundamentals",
         "tags": ["CS, Year 1"]
+    },
+    {
+        "id": 3,
+        "name": "Data Analysis and Design for Biologists",
+        "tags": ["Biology"]
     }
 ]
