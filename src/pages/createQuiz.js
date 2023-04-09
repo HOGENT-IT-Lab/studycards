@@ -1,5 +1,7 @@
 import { Box, Button, TextField, Typography } from "@mui/material";
 import React, { useCallback } from 'react';
+import FlashCard from "../components/flashcard";
+import flashcards from '../data/flashcards.json';
 
 
 export default function CreateQuiz() {
@@ -14,6 +16,7 @@ export default function CreateQuiz() {
                 })
             }
             <Button>Add Card</Button>
+            <FlashCard {...flashcards[0]}/>
         </Box>
     )
 }
