@@ -6,12 +6,23 @@
     },
     {
         "id": 2,
-        "name": "OOP Fundamentals",
+        "name": "OOP I",
         "tags": ["CS, Year 1"]
     },
     {
         "id": 3,
         "name": "Data Analysis and Design for Biologists",
         "tags": ["Biology"]
+    },
+    {
+        "id": 4,
+        "name": "Data Science & AI",
+        "tags": ["CS", "AI"]
+    }, 
+    {
+        "id": 5,
+        "name": "Web Servives",
+        "tags": ["CS", "Year 2"]
     }
+
 ]
