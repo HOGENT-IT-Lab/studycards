@@ -1,0 +1,16 @@
+[
+    {
+        "quizId": 1,
+        "question": "What is the complexity of this algorithm?",
+        "code": "search(array, value)\n\tfor element in array:\n\t\tif element == value:\n\t\t\treturn value",
+        "answers": ["O(n)", "O(nlog(n))", "O(n^2)"],
+        "answer": "O(n)",
+        "explanation": "This is a linear algorithm, in the worst case scenario each element in the array is visited once."
+    }, 
+    {
+        "quizId": 1,
+        "question": "What kind of tree is this?",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Binary_tree_v2.svg",
+        "answer": "binary tree"
+    }
+]
