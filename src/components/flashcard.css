@@ -5,6 +5,7 @@
     gap: 1rem;
 }
 
+
 .card{
     display: flex;
     justify-content: center;
@@ -17,7 +18,7 @@
     height: 250px;
     width: 250px;
     cursor: pointer;
-    transition: 150ms;
+    transition: 1500ms;
     transform: perspective(1000px) rotateY(var(--rotate-y, 0))
 }
 
